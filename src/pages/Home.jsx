@@ -23,16 +23,6 @@ function Home() {
   }, []);
 
   return (
-    // <div className="home">
-    //   <div className="iconlogo">
-    //     <img src={IconLogo}
-    //           width={250}
-    //     />
-    //     <img className="sitlogo" src={SitLogo}
-    //           width={250}
-    //     />
-    //   </div>
-      {/* hero-section */}
       <div className="hero" style={{ zIndex: 180, position: "relative" }}>
         <div className="container logo">
           <div className="logo-img">
