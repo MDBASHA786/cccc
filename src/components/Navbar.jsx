@@ -46,6 +46,7 @@ import { Link } from 'react-router-dom';
 function NavBar() {
   return (
     <nav className="navbar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <div className="navbar-logo">
         <Link to="/">Icon</Link>
       </div>
@@ -72,6 +73,17 @@ function NavBar() {
         </li>
       </ul>
     </nav>
+    <script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
   );
 }
 
