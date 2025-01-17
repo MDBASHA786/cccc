@@ -49,8 +49,6 @@ function Home() {
           <p style={{ fontSize: 34 }}>17th FEB'25</p>
         </div>
       </div>
-
-      {/* CountDown */}
       <h1 className="count-h">COUNTDOWN</h1>
       <CountDown />
 
