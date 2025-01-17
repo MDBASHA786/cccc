@@ -46,7 +46,6 @@ import { Link } from 'react-router-dom';
 function NavBar() {
   return (
     <nav className="navbar">
-    <div className="home">
       <div className="iconlogo">
         <img src={IconLogo}
               width={250}
