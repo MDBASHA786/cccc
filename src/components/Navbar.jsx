@@ -54,7 +54,7 @@ function NavBar() {
         <img className="sitlogo" src={SitLogo}
               width={250}
         />
-      </div>
+      </div></div>
       <ul className="navbar-links">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/registration">Registration</Link></li>
